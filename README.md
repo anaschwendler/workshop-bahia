@@ -8,6 +8,14 @@ Horário: das 10h às 18h
 
 ---
 
+## Instalando requirements
+
+```console
+$ pip install -r requirements.txt
+``
+
+---
+
 ## Cronograma
 
 10h: O que é dados abertos e o que eu tenho a ver com isso
@@ -16,6 +24,7 @@ Horário: das 10h às 18h
 
 11h: Primeiros passos em exploração de dados (usando Jupyter Notebooks e dados abertos)
 
+[BREAK]
 
 13h: Ideias de projeto - o que podemos fazer com o que temos, quais passos
 
