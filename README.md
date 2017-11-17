@@ -12,7 +12,7 @@ Horário: das 10h às 18h
 
 ```console
 $ pip install -r requirements.txt
-``
+```
 
 ---
 
