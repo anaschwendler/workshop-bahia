@@ -44,3 +44,25 @@ datasets.head()
 
 datasets.columns
 
+
+# In[5]:
+
+
+datasets.iloc[1]
+
+
+# ## Total de gastos com licitações
+
+# In[6]:
+
+
+total_of_licitations = datasets['VALOR TOTAL LICITADO'].sum()
+total_of_licitations
+
+
+# ### Coisas a fazer:
+# 
+# - Limpar cnpj
+# - Ver qual cnpj recebeu mais de licitações
+# - Analise do gráfico da curva de gastos
+# - Ideias a vir

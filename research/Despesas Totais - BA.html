@@ -12118,6 +12118,128 @@ CERTAME</th>
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datasets</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[5]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>DATA DE ENTRADA NA LICITAÇÃO                                                              2016-12-19
+Nº DO SIMP\nPROCEDIMENTO                                                           003.0.219210/2016
+MODALIDADE                                                                         PREGÃO PRESENCIAL
+Nº\nCERTAME                                                                                  01/2017
+RESPONSÁVEL PELA CONFECÇÃO DO EDITAL                                                          ALVARO
+UNID. ORÇAMENTÁRIA                                                                            40.101
+NaN                                                                                             None
+UNID. GESTORA                                                                                   None
+Nº DA AUTORIZAÇÃO                                                                            01/2016
+OBJETO                                                    SERVIÇO P/REALIZAÇÃO DE PROVAS ESTAGIARIOS
+ESPECIFICAÇÃO DO ITEM/SERVIÇO                              IT 1 - NÍVEL MÉDIO; IT 2 - NÍVEL SUPERIOR
+TIPO DA LICITAÇÃO                                                                        MENOR PREÇO
+SITUAÇÃO (EM ANDAMENTO / CONCLUÍDO / CANCELADO)                                            CONCLUÍDO
+DATA DE PUBLICIDADE DO EDITAL                                                             2017-01-17
+DATA E HORA DE ABERTURA DO CERTAME                                               27/01/2017 às 09h30
+UNIDADE DE MEDIDA                                                                                UN.
+QUANTIDADE PREVISTA                                                                                1
+VALOR UNIT. ORÇADO                                                                             86000
+VALOR TOTAL ORÇADO                                                                             86000
+VALOR UNITÁRIO LICITADO                                                                        60000
+VALOR TOTAL LICITADO                                                                           60000
+ECONOMIA % UNITÁRIO                                                                          30.2326
+ECONOMIA % TOTAL                                                                             30.2326
+ECONOMIA R$                                                                                    26000
+EMPRESA VENCEDORA                                        INST. ESTUDOS PESQUISAS E DESENV. MUNICIPAL
+CNPJ                                                                              40.645.707/0001-70
+SÓCIOS CPF                                         EDUARDO SILVA ALVES CPF 059820515-27 e ALBERTO...
+DATA DA HOMOLOGAÇÃO                                                                             None
+Nº DA ARP                                                                                          0
+ÓRGÃO GERENCIADOR DA ATA                                                                        None
+VALOR TOTAL DO REGISTRO DE PREÇOS                                                              60000
+DATA DA PUBLICIDADE DA ARP                                                                      None
+VIGÊNCIA DA ARP                                                                                 None
+Name: 1, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Total-de-gastos-com-licita&#231;&#245;es">Total de gastos com licita&#231;&#245;es<a class="anchor-link" href="#Total-de-gastos-com-licita&#231;&#245;es">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_of_licitations</span> <span class="o">=</span> <span class="n">datasets</span><span class="p">[</span><span class="s1">&#39;VALOR TOTAL LICITADO&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">total_of_licitations</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[6]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1575199.1000000001</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Coisas-a-fazer:">Coisas a fazer:<a class="anchor-link" href="#Coisas-a-fazer:">&#182;</a></h3><ul>
+<li>Limpar cnpj</li>
+<li>Ver qual cnpj recebeu mais de licitações</li>
+<li>Analise do gráfico da curva de gastos</li>
+<li>Ideias a vir</li>
+</ul>
+
+</div>
+</div>
+</div>
     </div>
   </div>
 </body>
