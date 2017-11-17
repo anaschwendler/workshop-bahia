@@ -38,8 +38,7 @@ Horário: das 10h às 18h
 Fonte | Link | Conteúdo/Foco
 ---- | ---- | ----
 Gênero e número | https://github.com/generonumero | https://github.com/generonumero/tse_candidatos_2016
-Transparência bahia| http://www.transparencia.ba.gov.br/ | http://www.transparencia.ba.gov.br/Despesa/
-Ministério público | https://www.mpba.mp.br/area/portaltransparencia | ---
+Ministério público | https://www.mpba.mp.br/portaltransparencia | ---
 Portal da Transparência | http://www.portaldatransparencia.gov.br/ | http://www.portaldatransparencia.gov.br/downloads/
 
 
